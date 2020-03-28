@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.tmj</groupId>
+  <artifactId>maven01-start</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>第一个入门项目</name>
+  <description>这是maven第一个入门项目</description>
+  
+  <dependencies>
+  	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.12</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- spring的坐标 -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-context</artifactId>
+	    <version>4.3.2.RELEASE</version>
+	</dependency>
+  </dependencies>
+</project>
